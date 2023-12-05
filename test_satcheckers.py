@@ -16,9 +16,9 @@ from selenium.webdriver.support.ui import Select
 
 import smtplib
 
-email = "youremail@gmail.com"
-location = "00000" #your zip code
-distance = "10 miles" #whatever your want (has to be on the website as an option)
+email = "ashleywch10@gmail.com"
+location = "94404" #your zip code
+distance = "75 miles" #whatever your want (has to be on the website as an option)
 class TestSatchecker():
     def setup_method(self):
         service = Service('chromedriver.exe')
